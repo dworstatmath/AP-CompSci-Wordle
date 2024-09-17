@@ -1,4 +1,6 @@
-word = "piles"
+import random
+words =["apple","stove","pizza","games","piles"]
+word = random.choice(words)
 #colors for printing
 default = '\033[0m'
 green = '\033[92m'
