@@ -22,8 +22,9 @@ def game_loop():
     guess=""
     for i in range(6):
         guess=input("what is your guess: ")
+        generate_hint(guess)
         if guess == word:
             print ("you win")
             break
-        generate_hint(guess)
+        
 game_loop()
